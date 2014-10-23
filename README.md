@@ -1,3 +1,7 @@
+Yii 2 Pastebin
+================================
+Read Readme.md (Readme.md is a different file from README.md)
+
 Yii 2 Basic Application Template
 ================================
 
