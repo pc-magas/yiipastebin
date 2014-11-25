@@ -19,12 +19,15 @@ class PastesController extends Controller
         return [
             'verbs' => [
                 'class' => VerbFilter::className(),
-                'actions' => [
-                    'delete' => ['post'],
-                ],
+                'actions' => ['delete' => ['post'],],
             ],
         ];
     }
+	
+	public function actions()
+	{
+		return ['captcha'=>['class' => 'yii\captcha\CaptchaAction'],];
+	}
 
     /**
      * Displays a single Pastes model.

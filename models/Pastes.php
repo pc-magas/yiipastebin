@@ -20,9 +20,11 @@ use yii\db\Query;
  */
 class Pastes extends \yii\db\ActiveRecord
 {
-    /**
-     * @inheritdoc
-     */
+   public $captcha;
+    
+   /**
+    * @inheritdoc
+    */
     public static function tableName()
     {
         return 'pastes';
@@ -34,11 +36,12 @@ class Pastes extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['who', 'title', 'paste'], 'required'],
+            [['who', 'title', 'paste','captcha'], 'required'],
             [['paste'], 'string'],
             [['date'],'integer'],
             [['refers'], 'integer'],
-            [['who', 'title'], 'string', 'max' => 45]
+            [['who', 'title'], 'string', 'max' => 45],
+            [['captcha'],'captcha']
         ];
     }
 

@@ -10071,3 +10071,873 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1413779963.835
     'REQUEST_TIME' => 1413779963
 ]
+2014-10-27 23:15:18 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Missing required parameter "id" when instantiating "yii\captcha\CaptchaAction".' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php:444
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(363): yii\di\Container->resolveDependencies(Array, Object(ReflectionClass))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('yii\captcha\Cap...', Array, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\captcha\Cap...', Array, Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(660): yii\BaseYii::createObject(Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(644): yii\base\Component->attachBehaviorInternal('captcha', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(526): yii\base\Component->ensureBehaviors()
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2014-10-27 23:15:18 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '41995'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414451718.418
+    'REQUEST_TIME' => 1414451718
+]
+2014-10-27 23:15:58 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Missing required parameter "id" when instantiating "yii\captcha\CaptchaAction".' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php:444
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(363): yii\di\Container->resolveDependencies(Array, Object(ReflectionClass))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('yii\captcha\Cap...', Array, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\captcha\Cap...', Array, Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(660): yii\BaseYii::createObject(Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(644): yii\base\Component->attachBehaviorInternal('captcha', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(526): yii\base\Component->ensureBehaviors()
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2014-10-27 23:15:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '41997'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414451758.402
+    'REQUEST_TIME' => 1414451758
+]
+2014-10-27 23:51:19 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '?>'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-10-27 23:51:18 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '42536'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414453878.981
+    'REQUEST_TIME' => 1414453878
+]
+2014-10-27 23:51:40 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '?>'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-10-27 23:51:40 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '42537'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414453900.481
+    'REQUEST_TIME' => 1414453900
+]
+2014-10-27 23:51:43 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '?>'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-10-27 23:51:43 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '42538'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414453903.975
+    'REQUEST_TIME' => 1414453903
+]
+2014-10-27 23:52:19 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Invalid CAPTCHA action ID: site/captcha' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/captcha/CaptchaValidator.php:81
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/captcha/CaptchaValidator.php(59): yii\captcha\CaptchaValidator->createCaptchaAction()
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/validators/Validator.php(252): yii\captcha\CaptchaValidator->validateValue(NULL)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/validators/Validator.php(238): yii\validators\Validator->validateAttribute(Object(app\models\Pastes), 'captcha')
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\Pastes), Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/db/ActiveRecord.php(408): yii\base\Model->validate(NULL)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(50): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\PastesController->actionCreate()
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2014-10-27 23:52:19 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'WEM0LjFCaWYcLHsYVyAaECIqc2d0OF8qOhFCRXMWOQMICHBrAzYxLg=='
+    'Pastes' => [
+        'who' => 'Hello2'
+        'title' => 'Hello2'
+        'paste' => 'GHHAJJSHHAHHS'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s:32:\"DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/yiiexample/web/'
+    'HTTP_COOKIE' => '_csrf=031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s%3A32%3A%22DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '146'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '42548'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414453939.783
+    'REQUEST_TIME' => 1414453939
+]
+2014-10-27 23:58:05 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Captcha' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-10-27 23:58:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/create'
+]
+
+$_COOKIE = [
+    '_csrf' => '031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s:32:\"DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/yiiexample/web/index.php?r=pastes%2Fview&id=20'
+    'HTTP_COOKIE' => '_csrf=031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s%3A32%3A%22DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '42553'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes%2Fcreate'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes%2Fcreate'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414454285.416
+    'REQUEST_TIME' => 1414454285
+]
+2014-10-28 00:12:45 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Missing required parameter "id" when instantiating "yii\captcha\CaptchaAction".' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php:444
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(363): yii\di\Container->resolveDependencies(Array, Object(ReflectionClass))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('yii\captcha\Cap...', Array, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\captcha\Cap...', Array, Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(660): yii\BaseYii::createObject(Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(644): yii\base\Component->attachBehaviorInternal('captcha', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(526): yii\base\Component->ensureBehaviors()
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/create', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2014-10-28 00:12:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/create'
+]
+
+$_COOKIE = [
+    '_csrf' => '031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s:32:\"DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/yiiexample/web/index.php?r=pastes%2Fview&id=20'
+    'HTTP_COOKIE' => '_csrf=031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s%3A32%3A%22DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '42839'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes%2Fcreate'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes%2Fcreate'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414455165.857
+    'REQUEST_TIME' => 1414455165
+]
+2014-10-28 00:12:49 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Missing required parameter "id" when instantiating "yii\captcha\CaptchaAction".' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php:444
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(363): yii\di\Container->resolveDependencies(Array, Object(ReflectionClass))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('yii\captcha\Cap...', Array, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\captcha\Cap...', Array, Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(660): yii\BaseYii::createObject(Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(644): yii\base\Component->attachBehaviorInternal('captcha', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(526): yii\base\Component->ensureBehaviors()
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/create', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2014-10-28 00:12:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/create'
+]
+
+$_COOKIE = [
+    '_csrf' => '031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s:32:\"DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s%3A32%3A%22DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '42840'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes%2Fcreate'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes%2Fcreate'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414455169.455
+    'REQUEST_TIME' => 1414455169
+]
+2014-10-28 00:13:03 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Missing required parameter "id" when instantiating "yii\captcha\CaptchaAction".' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php:444
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(363): yii\di\Container->resolveDependencies(Array, Object(ReflectionClass))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('yii\captcha\Cap...', Array, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\captcha\Cap...', Array, Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(660): yii\BaseYii::createObject(Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(644): yii\base\Component->attachBehaviorInternal('captcha', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(526): yii\base\Component->ensureBehaviors()
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2014-10-28 00:13:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s:32:\"DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=031cddb7c344d8eca9a66eb614c970abc14de0940f9b46d960a06e8477443451s%3A32%3A%22DoO6fbsvziGIEz6LbRvkBTPePKDE2tXH%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '42842'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/index.php'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1414455183.765
+    'REQUEST_TIME' => 1414455183
+]
+2014-11-25 11:38:53 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Missing required parameter "id" when instantiating "yii\captcha\CaptchaAction".' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php:444
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(363): yii\di\Container->resolveDependencies(Array, Object(ReflectionClass))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('yii\captcha\Cap...', Array, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\captcha\Cap...', Array, Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(660): yii\BaseYii::createObject(Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(644): yii\base\Component->attachBehaviorInternal('captcha', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(526): yii\base\Component->ensureBehaviors()
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2014-11-25 11:38:53 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '55059'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1416915533.467
+    'REQUEST_TIME' => 1416915533
+]
+2014-11-25 12:09:43 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ',', expecting ']'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-25 12:09:43 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '55340'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1416917383.5
+    'REQUEST_TIME' => 1416917383
+]
+2014-11-25 12:09:53 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Captcha' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-25 12:09:53 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '55342'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1416917393.784
+    'REQUEST_TIME' => 1416917393
+]
+2014-11-25 12:15:46 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Captcha' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-25 12:15:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'f5c4a33236cb0798e117c0dedacad8d4e4eac67d81e9a3820bdfc1437f811aa2s:32:\"jH565owQQwIfxP3dMz5m-DhbzKVraZ9W\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=f5c4a33236cb0798e117c0dedacad8d4e4eac67d81e9a3820bdfc1437f811aa2s%3A32%3A%22jH565owQQwIfxP3dMz5m-DhbzKVraZ9W%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '55352'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1416917746.458
+    'REQUEST_TIME' => 1416917746
+]
+2014-11-25 12:15:58 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'Invalid CAPTCHA action ID: site/captcha' 
+
+in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/captcha/CaptchaValidator.php:81
+
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/captcha/CaptchaValidator.php(89): yii\captcha\CaptchaValidator->createCaptchaAction()
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(710): yii\captcha\CaptchaValidator->clientValidateAttribute(Object(app\models\Pastes), 'captcha', Object(yii\web\View))
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(202): yii\widgets\ActiveField->getClientOptions()
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(193): yii\widgets\ActiveField->begin()
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(149): yii\widgets\ActiveField->render()
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php(21): yii\widgets\ActiveField->__toString()
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(18): yii\base\View->render('_form', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(61): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\PastesController->actionCreate()
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#19 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#20 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#22 {main}' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Inva...', '/home/pcmagas/K...', 233, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/ErrorHandler.php(233): trigger_error('Exception (Inva...', 256)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(151): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidConfigException))
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php(21): yii\widgets\ActiveField->__toString()
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(18): yii\base\View->render('_form', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(61): yii\base\Controller->render('create', Array)
+#13 [internal function]: app\controllers\PastesController->actionCreate()
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#18 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#20 {main}
+    in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php:21
+    in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:18
+    in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:61
+2014-11-25 12:15:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'f5c4a33236cb0798e117c0dedacad8d4e4eac67d81e9a3820bdfc1437f811aa2s:32:\"jH565owQQwIfxP3dMz5m-DhbzKVraZ9W\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=f5c4a33236cb0798e117c0dedacad8d4e4eac67d81e9a3820bdfc1437f811aa2s%3A32%3A%22jH565owQQwIfxP3dMz5m-DhbzKVraZ9W%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '55353'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1416917757.709
+    'REQUEST_TIME' => 1416917757
+]
+2014-11-25 12:17:53 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ']'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-25 12:17:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'f5c4a33236cb0798e117c0dedacad8d4e4eac67d81e9a3820bdfc1437f811aa2s:32:\"jH565owQQwIfxP3dMz5m-DhbzKVraZ9W\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=f5c4a33236cb0798e117c0dedacad8d4e4eac67d81e9a3820bdfc1437f811aa2s%3A32%3A%22jH565owQQwIfxP3dMz5m-DhbzKVraZ9W%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '55359'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1416917873.085
+    'REQUEST_TIME' => 1416917873
+]
+2014-11-25 12:18:37 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'Invalid CAPTCHA action ID: site/captcha' 
+
+in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/captcha/CaptchaValidator.php:81
+
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/captcha/CaptchaValidator.php(89): yii\captcha\CaptchaValidator->createCaptchaAction()
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(710): yii\captcha\CaptchaValidator->clientValidateAttribute(Object(app\models\Pastes), 'captcha', Object(yii\web\View))
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(202): yii\widgets\ActiveField->getClientOptions()
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(193): yii\widgets\ActiveField->begin()
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(149): yii\widgets\ActiveField->render()
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php(21): yii\widgets\ActiveField->__toString()
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(18): yii\base\View->render('_form', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\PastesController->actionCreate()
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#19 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#20 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#22 {main}' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Inva...', '/home/pcmagas/K...', 233, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/ErrorHandler.php(233): trigger_error('Exception (Inva...', 256)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(151): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidConfigException))
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php(21): yii\widgets\ActiveField->__toString()
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(18): yii\base\View->render('_form', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): yii\base\Controller->render('create', Array)
+#13 [internal function]: app\controllers\PastesController->actionCreate()
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#18 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#20 {main}
+    in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php:21
+    in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:18
+    in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:66
+2014-11-25 12:18:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'f5c4a33236cb0798e117c0dedacad8d4e4eac67d81e9a3820bdfc1437f811aa2s:32:\"jH565owQQwIfxP3dMz5m-DhbzKVraZ9W\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=f5c4a33236cb0798e117c0dedacad8d4e4eac67d81e9a3820bdfc1437f811aa2s%3A32%3A%22jH565owQQwIfxP3dMz5m-DhbzKVraZ9W%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '55362'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1416917917.551
+    'REQUEST_TIME' => 1416917917
+]
