@@ -9,7 +9,8 @@ use yii\data\ActiveDataProvider;
 /* @var $model app\models\Pastes */
 
 $this->title = $model->title;
-//$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = $this->title;
+
 ?>
 
 <?=$this->render('_sidebar',['model'=>$model]);?>
@@ -27,12 +28,14 @@ $this->title = $model->title;
         <?= Html::a('Διόρθωση', ['create', 'refers' => $model->idpastes], ['class' => 'btn btn-primary']) ?>
         <?= Html::a('Nέο', ['create'], ['class' => 'btn btn-primary']) ?>
     </p>
-    <h3>Pastes σχετικά με αυτό</h3>
     <p>
     	<?php
     		$related=$model->getPastes();
     		if($related->count()>0)
 			{
+		?>
+		    <h3>Pastes σχετικά με αυτό</h3>
+		<?php
     			echo GridView::widget([
 									'dataProvider' => new ActiveDataProvider(['query'=>$related]),
 									'columns'=>[
