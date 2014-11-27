@@ -4,6 +4,7 @@ namespace app\models;
 
 use Yii;
 use yii\db\Query;
+use yii\data\ActiveDataProvider;
 
 /**
  * This is the model class for table "pastes".
@@ -96,13 +97,12 @@ class Pastes extends \yii\db\ActiveRecord
      */
     public function top10()
     {
-        $query = new Query();
-		
-		$query->select('`idpastes`,`who`,`title`,`date`')
+        $query = Pastes::Find()->limit('5')->orderBy('date');		
+		/*$query->select('`idpastes`,`who`,`title`,`date`')
 			  ->from('pastes')
 			  ->limit('5')
 		      ->orderBy('date');
-		
-        return $query;
+		*/
+        return new ActiveDataProvider(['query'=>$query]);
     }
 }
