@@ -4,10 +4,10 @@ namespace app\controllers;
 
 use Yii;
 use app\models\Pastes;
-use app\models\PastesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\filters\VerbFilter;
+use yii\helpers\BaseUrl;
+
 
 /**
  * PastesController implements the CRUD actions for Pastes model.
@@ -16,12 +16,7 @@ class PastesController extends Controller
 {
     public function behaviors()
     {
-        return [
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => ['delete' => ['post'],],
-            ],
-        ];
+        return [ ];
     }
 	
 	public function actions()
@@ -67,7 +62,26 @@ class PastesController extends Controller
         }
     }
 
-
+	public function actionLatest5()
+	{
+		$model=new Pastes();
+		$data=$model->top10()->getModels();
+		$sane=[];		
+		
+		$i=1;
+		
+		foreach($data as $d)
+		{
+			$sane["item".$i]=['id'=>$d->idpastes,
+								'name'=>$d->who,
+								'title'=>$d->title,
+								'date'=>$d->date,
+								'url'=>BaseUrl::to(['pastes/view','id'=>$d->idpastes])];
+			$i++;
+		}
+		return \yii\helpers\Json::encode($sane);
+	}
+	
     /**
      * Finds the Pastes model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
