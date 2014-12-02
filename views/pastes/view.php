@@ -15,14 +15,14 @@ $this->params['breadcrumbs'][] = $this->title;
 <section class="pastes-view">
 
     <h1><?= Html::encode($this->title); ?></h1>
-	<h2><?=Html::encode("By ".$model->who." at ".date("j/M/Y @ G:i",$model->date)); ?></h2>
+	<h3><?=Html::encode("By ".$model->who." at ".date("j/m/Y @ G:i",$model->date)); ?></h3>
 	
-   <p style="border:solid">
-   	<?=Html::encode($model->paste);?>
-   </p>
+   	<pre style="border:solid ">
+   	<code><?=Html::encode($model->paste);?></code>
+   	</pre>
     
  	<p>
-        <?= Html::a('New Related Paste', ['create', 'refers' => $model->idpastes], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('New <strong>Related</strong> Paste', ['create', 'refers' => $model->idpastes], ['class' => 'btn btn-primary']) ?>
         <?= Html::a('New Paste', ['create'], ['class' => 'btn btn-primary']) ?>
     </p>
     <p>

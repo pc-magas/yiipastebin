@@ -19,11 +19,11 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
-        '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css',
+        'http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css',
     ];
     public $js = [
     				'js/sidebar.js',
-    				'//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js',
+    				'http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js',
     			];
     public $depends = [
         'yii\web\YiiAsset',
