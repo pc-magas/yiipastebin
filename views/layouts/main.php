@@ -23,7 +23,7 @@ AppAsset::register($this);
 <body>
 
 <?php $this->beginBody() ?>
-    <head>
+    <header>
         <?php
             NavBar::begin([
                 'brandLabel' => 'Pc_magas\' Sample Pastebin',
@@ -34,19 +34,20 @@ AppAsset::register($this);
             ]);
             NavBar::end();
         ?>
-	</head>
+	</header>
     <div class="wrap">
         <div class="container">
             <?= Breadcrumbs::widget([
                 'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
             ]) ?>
+            <aside><h3>Latest 5 pastes</h3><hr><ul></ul></aside>
             <?= $content ?>
         </div>
     </div>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <p class="pull-left">Dimitrios Desillas Samle Yii Demo <?= date('Y') ?></p>
+            <p class="pull-left">Dimitrios Desillas Sample Yii Demo <?= date('Y') ?></p>
             <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
     </footer>
