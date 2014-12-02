@@ -55,11 +55,11 @@ class Pastes extends \yii\db\ActiveRecord
     {
         return [
             'idpastes' => 'Id',
-            'who' => 'You name or a nickname',
-            'title' => 'Title of the new Paste',
+            'who' => 'User\'s name or a nickname',
+            'title' => 'Title',
             'paste' => 'New Paste',
             'date' => 'Date',
-            'refers' => 'Post that Refers',
+            'refers' => 'Paste that Refers',
         ];
     }
 
