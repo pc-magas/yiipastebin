@@ -10,7 +10,6 @@ $this->title = 'Create Pastes';
 
 
 ?>
-<?=$this->render('_sidebar',['model'=>$model]);?>
 <section class="pastes-create">
 
     <h1><?= Html::encode($this->title); ?></h1>

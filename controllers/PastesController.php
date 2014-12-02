@@ -75,7 +75,7 @@ class PastesController extends Controller
 			$sane["item".$i]=['id'=>$d->idpastes,
 								'name'=>$d->who,
 								'title'=>$d->title,
-								'date'=>$d->date,
+								'date'=>date("d/m/Y h:m a",$d->date),
 								'url'=>BaseUrl::to(['pastes/view','id'=>$d->idpastes])];
 			$i++;
 		}

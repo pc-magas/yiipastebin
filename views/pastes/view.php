@@ -12,9 +12,6 @@ $this->title = $model->title;
 $this->params['breadcrumbs'][] = $this->title;
 
 ?>
-
-<?=$this->render('_sidebar',['model'=>$model]);?>
-
 <section class="pastes-view">
 
     <h1><?= Html::encode($this->title); ?></h1>

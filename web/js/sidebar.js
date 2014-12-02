@@ -10,12 +10,9 @@ function()
 	 		 for(var i in data)
 	 		 {
 	 		 	var element=data[i];
-	 		 	var string="<a href=\""+element.url+"\">"+element.title+"</a><br>"+"Δημιουργήθηκε από τον:"+element.name+"στις"+element.date;
-	 		 	console.log("I'm here");
+	 		 	var string="<a href=\""+element.url+"\">"+element.title+"</a><br><span>By: "+element.name+" at "+element.date+"</span>";
 	 		 	$("aside ul").append("<li>"+string+"</li>");
-	 		 }
-	 		 
-	 		 
+	 		 } 
 	 	}
 	 });
 });
