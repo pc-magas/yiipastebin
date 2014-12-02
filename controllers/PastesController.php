@@ -6,7 +6,6 @@ use Yii;
 use app\models\Pastes;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\helpers\BaseUrl;
 
 
 /**
@@ -64,22 +63,7 @@ class PastesController extends Controller
 
 	public function actionLatest5()
 	{
-		$model=new Pastes();
-		$data=$model->top10()->getModels();
-		$sane=[];		
-		
-		$i=1;
-		
-		foreach($data as $d)
-		{
-			$sane["item".$i]=['id'=>$d->idpastes,
-								'name'=>$d->who,
-								'title'=>$d->title,
-								'date'=>date("d/m/Y h:m a",$d->date),
-								'url'=>BaseUrl::to(['pastes/view','id'=>$d->idpastes])];
-			$i++;
-		}
-		return \yii\helpers\Json::encode($sane);
+		return \yii\helpers\Json::encode(Pastes::top10());
 	}
 	
     /**

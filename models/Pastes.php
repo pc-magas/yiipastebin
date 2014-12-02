@@ -5,6 +5,8 @@ namespace app\models;
 use Yii;
 use yii\db\Query;
 use yii\data\ActiveDataProvider;
+use yii\helpers\BaseUrl;
+
 
 /**
  * This is the model class for table "pastes".
@@ -52,12 +54,12 @@ class Pastes extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idpastes' => 'Idpastes',
-            'who' => 'Who',
-            'title' => 'Title',
-            'paste' => 'Paste',
+            'idpastes' => 'Id',
+            'who' => 'You name or a nickname',
+            'title' => 'Title of the new Paste',
+            'paste' => 'New Paste',
             'date' => 'Date',
-            'refers' => 'Refers',
+            'refers' => 'Post that Refers',
         ];
     }
 
@@ -95,14 +97,19 @@ class Pastes extends \yii\db\ActiveRecord
      *
      * @return ActiveDataProvider
      */
-    public function top10()
+    public static function top10()
     {
         $query = Pastes::Find()->limit('5')->orderBy('date');		
-		/*$query->select('`idpastes`,`who`,`title`,`date`')
-			  ->from('pastes')
-			  ->limit('5')
-		      ->orderBy('date');
-		*/
-        return new ActiveDataProvider(['query'=>$query]);
+		$provider=new ActiveDataProvider(['query'=>$query]);
+		$data=$provider->getModels();
+		$sane=[];		
+		
+		$i=1;
+		foreach($data as $d)
+		{
+			$sane["item".$i]=['id'=>$d->idpastes,'name'=>$d->who,'title'=>$d->title,'date'=>date("d/m/Y h:m a",$d->date),'url'=>BaseUrl::to(['pastes/view','id'=>$d->idpastes])];
+			$i++;
+		}
+        return  $sane;
     }
 }
