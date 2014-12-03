@@ -10941,3 +10941,3183 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1416917917.551
     'REQUEST_TIME' => 1416917917
 ]
+2014-11-26 12:00:16 [127.0.0.1][][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2014-11-26 12:00:16 [127.0.0.1][][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32847'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417003216.587
+    'REQUEST_TIME' => 1417003216
+]
+2014-11-26 12:07:56 [127.0.0.1][][jbmqo4pa5jg7hgp27toir7m804][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The requested page does not exist.' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:86
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(39): app\controllers\PastesController->findModel('18')
+#1 [internal function]: app\controllers\PastesController->actionView('18')
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/view', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2014-11-26 12:07:56 [127.0.0.1][][jbmqo4pa5jg7hgp27toir7m804][info][application] $_GET = [
+    'r' => 'pastes/view'
+    'id' => '18'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32870'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes%2Fview&id=18'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes%2Fview&id=18'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417003676.321
+    'REQUEST_TIME' => 1417003676
+]
+2014-11-26 12:32:31 [127.0.0.1][][jbmqo4pa5jg7hgp27toir7m804][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: pastes/actionLatest5' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('actionLatest5', Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/actionLa...', Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: pastes/actionLatest5' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2014-11-26 12:32:31 [127.0.0.1][][jbmqo4pa5jg7hgp27toir7m804][info][application] $_GET = [
+    'r' => 'pastes/actionLatest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33063'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/actionLatest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/actionLatest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417005151.364
+    'REQUEST_TIME' => 1417005151
+]
+2014-11-26 12:32:47 [127.0.0.1][][jbmqo4pa5jg7hgp27toir7m804][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: pastes/Latest5' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('Latest5', Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/Latest5', Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: pastes/Latest5' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2014-11-26 12:32:47 [127.0.0.1][][jbmqo4pa5jg7hgp27toir7m804][info][application] $_GET = [
+    'r' => 'pastes/Latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33064'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/Latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/Latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417005167.563
+    'REQUEST_TIME' => 1417005167
+]
+2014-11-26 12:34:05 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:77
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:34:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33066'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417005245.264
+    'REQUEST_TIME' => 1417005245
+]
+2014-11-26 12:45:50 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\ActiveRecord' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:106
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:45:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33142'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417005950.769
+    'REQUEST_TIME' => 1417005950
+]
+2014-11-26 12:46:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\ActiveRecord' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:106
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:46:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33143'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417005985.339
+    'REQUEST_TIME' => 1417005985
+]
+2014-11-26 12:46:55 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:107
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:46:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33144'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417006015.612
+    'REQUEST_TIME' => 1417006015
+]
+2014-11-26 12:47:41 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:107
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:47:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33145'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417006061.222
+    'REQUEST_TIME' => 1417006061
+]
+2014-11-26 12:48:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\ActiveDataProvider' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:106
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:48:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33146'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417006088.58
+    'REQUEST_TIME' => 1417006088
+]
+2014-11-26 12:49:37 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:107
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:49:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33148'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417006177.674
+    'REQUEST_TIME' => 1417006177
+]
+2014-11-26 12:50:29 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:107
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:50:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33150'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417006229.277
+    'REQUEST_TIME' => 1417006229
+]
+2014-11-26 12:51:31 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:108
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:51:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33151'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417006291.146
+    'REQUEST_TIME' => 1417006291
+]
+2014-11-26 12:51:32 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:108
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-26 12:51:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s:32:\"8Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj\";'
+    'PHPSESSID' => 'jbmqo4pa5jg7hgp27toir7m804'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e7f8a8af107a9054961b0a2f05d84c85c598fb5e68ea47fb7441f4dd5cb024e6s%3A32%3A%228Xdkmee_MTU20FHN9OH8Cn3c3rB-z8Oj%22%3B; PHPSESSID=jbmqo4pa5jg7hgp27toir7m804'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33152'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/index.php?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417006292.438
+    'REQUEST_TIME' => 1417006292
+]
+2014-11-27 15:27:40 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:27:40 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32817'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102060.849
+    'REQUEST_TIME' => 1417102060
+]
+2014-11-27 15:34:10 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:34:10 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32820'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102450.767
+    'REQUEST_TIME' => 1417102450
+]
+2014-11-27 15:34:12 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:34:12 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32821'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102452.055
+    'REQUEST_TIME' => 1417102452
+]
+2014-11-27 15:38:28 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:38:28 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32837'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102708.03
+    'REQUEST_TIME' => 1417102708
+]
+2014-11-27 15:39:16 [127.0.0.1][][ps01fj2bp4uke598u2m182lpa1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sites/latest5".' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('sites/latest5', Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "sites/latest5".' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2014-11-27 15:39:16 [127.0.0.1][][ps01fj2bp4uke598u2m182lpa1][info][application] $_GET = [
+    'r' => 'sites/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32839'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sites/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=sites/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102756.413
+    'REQUEST_TIME' => 1417102756
+]
+2014-11-27 15:40:45 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:40:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32842'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102845.498
+    'REQUEST_TIME' => 1417102845
+]
+2014-11-27 15:40:46 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:40:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32843'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102846.81
+    'REQUEST_TIME' => 1417102846
+]
+2014-11-27 15:40:47 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:40:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32844'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102847.858
+    'REQUEST_TIME' => 1417102847
+]
+2014-11-27 15:40:48 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:40:48 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32845'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102848.807
+    'REQUEST_TIME' => 1417102848
+]
+2014-11-27 15:42:43 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:42:43 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32846'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102963.834
+    'REQUEST_TIME' => 1417102963
+]
+2014-11-27 15:42:46 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:42:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32847'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102966.071
+    'REQUEST_TIME' => 1417102966
+]
+2014-11-27 15:42:47 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:42:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32848'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417102967.347
+    'REQUEST_TIME' => 1417102967
+]
+2014-11-27 15:49:30 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:49:30 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32877'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417103370.953
+    'REQUEST_TIME' => 1417103370
+]
+2014-11-27 15:49:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'View' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:49:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32878'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417103387.588
+    'REQUEST_TIME' => 1417103387
+]
+2014-11-27 15:53:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'JqueryAsset' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 15:53:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32965'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417103588.175
+    'REQUEST_TIME' => 1417103588
+]
+2014-11-27 15:54:54 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal offset type' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php:412
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php(412): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/pcmagas/K...', 412, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php(17): yii\web\View->registerJs('$(document).rea...', 1, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(13): yii\base\View->render('_sidebar', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): yii\base\Controller->render('create', Array)
+#11 [internal function]: app\controllers\PastesController->actionCreate()
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2014-11-27 15:54:54 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32993'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417103694.844
+    'REQUEST_TIME' => 1417103694
+]
+2014-11-27 15:55:33 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal offset type' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php:412
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php(412): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/pcmagas/K...', 412, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php(17): yii\web\View->registerJs('$(document).rea...', 1, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(13): yii\base\View->render('_sidebar', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): yii\base\Controller->render('create', Array)
+#11 [internal function]: app\controllers\PastesController->actionCreate()
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2014-11-27 15:55:33 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32994'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417103733.749
+    'REQUEST_TIME' => 1417103733
+]
+2014-11-27 15:55:35 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal offset type' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php:412
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php(412): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/pcmagas/K...', 412, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php(17): yii\web\View->registerJs('$(document).rea...', 1, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(13): yii\base\View->render('_sidebar', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): yii\base\Controller->render('create', Array)
+#11 [internal function]: app\controllers\PastesController->actionCreate()
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2014-11-27 15:55:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '32995'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417103735.348
+    'REQUEST_TIME' => 1417103735
+]
+2014-11-27 16:06:05 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal offset type' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php:412
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php(412): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/pcmagas/K...', 412, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php(17): yii\web\View->registerJs('$(document).rea...', 1, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(13): yii\base\View->render('_sidebar', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): yii\base\Controller->render('create', Array)
+#11 [internal function]: app\controllers\PastesController->actionCreate()
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2014-11-27 16:06:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33123'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417104365.098
+    'REQUEST_TIME' => 1417104365
+]
+2014-11-27 16:13:19 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Undefined class constant 'POS_CURRENT'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 16:13:19 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33282'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417104799.621
+    'REQUEST_TIME' => 1417104799
+]
+2014-11-27 16:17:55 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal offset type' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php:412
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php(412): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/pcmagas/K...', 412, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php(17): yii\web\View->registerJs('$(document).rea...', 4, Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(13): yii\base\View->render('_sidebar', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): yii\base\Controller->render('create', Array)
+#11 [internal function]: app\controllers\PastesController->actionCreate()
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2014-11-27 16:17:55 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33345'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417105075.674
+    'REQUEST_TIME' => 1417105075
+]
+2014-11-27 16:27:59 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant d - assumed 'd'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/sidebar_json.php:6
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/sidebar_json.php(6): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/pcmagas/K...', 6, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('sidebar_json', Array, Object(app\controllers\PastesController))
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(75): yii\base\Controller->render('sidebar_json', Array)
+#6 [internal function]: app\controllers\PastesController->actionLatest5()
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2014-11-27 16:27:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33366'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417105679.701
+    'REQUEST_TIME' => 1417105679
+]
+2014-11-27 16:29:18 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Pastes::id' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/db/BaseActiveRecord.php(246): yii\base\Component->__get('id')
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/sidebar_json.php(6): yii\db\BaseActiveRecord->__get('id')
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('sidebar_json', Array, Object(app\controllers\PastesController))
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(75): yii\base\Controller->render('sidebar_json', Array)
+#7 [internal function]: app\controllers\PastesController->actionLatest5()
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2014-11-27 16:29:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33369'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417105758.879
+    'REQUEST_TIME' => 1417105758
+]
+2014-11-27 16:29:45 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Pastes::id' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/db/BaseActiveRecord.php(246): yii\base\Component->__get('id')
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/sidebar_json.php(7): yii\db\BaseActiveRecord->__get('id')
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('sidebar_json', Array, Object(app\controllers\PastesController))
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(75): yii\base\Controller->render('sidebar_json', Array)
+#7 [internal function]: app\controllers\PastesController->actionLatest5()
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2014-11-27 16:29:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33370'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417105785.195
+    'REQUEST_TIME' => 1417105785
+]
+2014-11-27 16:29:48 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Pastes::id' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/db/BaseActiveRecord.php(246): yii\base\Component->__get('id')
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/sidebar_json.php(7): yii\db\BaseActiveRecord->__get('id')
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('sidebar_json', Array, Object(app\controllers\PastesController))
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(75): yii\base\Controller->render('sidebar_json', Array)
+#7 [internal function]: app\controllers\PastesController->actionLatest5()
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2014-11-27 16:29:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33371'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417105788.641
+    'REQUEST_TIME' => 1417105788
+]
+2014-11-27 16:36:08 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant i - assumed 'i'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:79
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(79): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/pcmagas/K...', 79, Array)
+#1 [internal function]: app\controllers\PastesController->actionLatest5()
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2014-11-27 16:36:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33430'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417106168.712
+    'REQUEST_TIME' => 1417106168
+]
+2014-11-27 16:36:33 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'unlink() expects parameter 1 to be a valid path, object given' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:80
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'unlink() expect...', '/home/pcmagas/K...', 80, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(80): unlink(Object(app\models\Pastes))
+#2 [internal function]: app\controllers\PastesController->actionLatest5()
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2014-11-27 16:36:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33431'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417106193.783
+    'REQUEST_TIME' => 1417106193
+]
+2014-11-27 16:50:31 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Pastes::name' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/db/BaseActiveRecord.php(246): yii\base\Component->__get('name')
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(80): yii\db\BaseActiveRecord->__get('name')
+#2 [internal function]: app\controllers\PastesController->actionLatest5()
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2014-11-27 16:50:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33473'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417107031.694
+    'REQUEST_TIME' => 1417107031
+]
+2014-11-27 16:50:42 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Pastes::name' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/db/BaseActiveRecord.php(246): yii\base\Component->__get('name')
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(80): yii\db\BaseActiveRecord->__get('name')
+#2 [internal function]: app\controllers\PastesController->actionLatest5()
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2014-11-27 16:50:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33475'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417107041.994
+    'REQUEST_TIME' => 1417107041
+]
+2014-11-27 16:51:59 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Pastes::name' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/db/BaseActiveRecord.php(246): yii\base\Component->__get('name')
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(80): yii\db\BaseActiveRecord->__get('name')
+#2 [internal function]: app\controllers\PastesController->actionLatest5()
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2014-11-27 16:51:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33481'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417107119.036
+    'REQUEST_TIME' => 1417107119
+]
+2014-11-27 16:57:36 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: theurl' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php:19
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/pcmagas/K...', 19, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(13): yii\base\View->render('_sidebar', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): yii\base\Controller->render('create', Array)
+#10 [internal function]: app\controllers\PastesController->actionCreate()
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2014-11-27 16:57:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33498'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417107456.546
+    'REQUEST_TIME' => 1417107456
+]
+2014-11-27 17:00:08 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'BaseUrl' (T_STRING)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php:7
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 17:00:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ps01fj2bp4uke598u2m182lpa1'
+    '_csrf' => 'e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s:32:\"GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ps01fj2bp4uke598u2m182lpa1; _csrf=e8cd4b54229814610f84faa6f032e2fb249a20885de631317ee82e162a043b68s%3A32%3A%22GXWhqLHkBlQWxvd7fw54_GRU6UMyEM6r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '33521'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417107608.926
+    'REQUEST_TIME' => 1417107608
+]
+2014-11-27 23:35:24 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php:6
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-11-27 23:35:24 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm5embmn3jeu8kpajjiqq75k6o5'
+    '_csrf' => 'c89b4fdd9ff152e8f53d6bdbbff3904b125805ad3f9edab2580226b53ae7b166s:32:\"UkYT0UWXyZfbYA0S7Z9A3O8Dm7_0yAg1\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=m5embmn3jeu8kpajjiqq75k6o5; _csrf=c89b4fdd9ff152e8f53d6bdbbff3904b125805ad3f9edab2580226b53ae7b166s%3A32%3A%22UkYT0UWXyZfbYA0S7Z9A3O8Dm7_0yAg1%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '40040'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417131324.667
+    'REQUEST_TIME' => 1417131324
+]
+2014-11-27 23:38:16 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Cannot use a scalar value as an array' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/helpers/BaseHtml.php:242
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/helpers/BaseHtml.php(242): yii\base\ErrorHandler->handleError(2, 'Cannot use a sc...', '/home/pcmagas/K...', 242, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/View.php(444): yii\helpers\BaseHtml::jsFile('yiiexample/web/...', 3)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_sidebar.php(6): yii\web\View->registerJsFile('yiiexample/web/...', 3)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(13): yii\base\View->render('_sidebar', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(61): yii\base\Controller->render('create', Array)
+#12 [internal function]: app\controllers\PastesController->actionCreate()
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#19 {main}
+2014-11-27 23:38:16 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm5embmn3jeu8kpajjiqq75k6o5'
+    '_csrf' => 'c89b4fdd9ff152e8f53d6bdbbff3904b125805ad3f9edab2580226b53ae7b166s:32:\"UkYT0UWXyZfbYA0S7Z9A3O8Dm7_0yAg1\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=m5embmn3jeu8kpajjiqq75k6o5; _csrf=c89b4fdd9ff152e8f53d6bdbbff3904b125805ad3f9edab2580226b53ae7b166s%3A32%3A%22UkYT0UWXyZfbYA0S7Z9A3O8Dm7_0yAg1%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '40057'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417131496.456
+    'REQUEST_TIME' => 1417131496
+]
+2014-12-02 12:40:31 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/register' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('register', Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/register', Array)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: site/register' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2014-12-02 12:40:31 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'site/register'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '59513'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/register'
+    'REQUEST_URI' => '/yiiexample/web/?r=site/register'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417524031.459
+    'REQUEST_TIME' => 1417524031
+]
+2014-12-02 12:40:53 [127.0.0.1][][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\ContactForm' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/SiteController.php:80
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-02 12:40:53 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '59514'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/contact'
+    'REQUEST_URI' => '/yiiexample/web/?r=site/contact'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417524053.329
+    'REQUEST_TIME' => 1417524053
+]
+2014-12-02 12:46:01 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'Invalid CAPTCHA action ID: site/captcha' 
+
+in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/captcha/CaptchaValidator.php:81
+
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/captcha/CaptchaValidator.php(89): yii\captcha\CaptchaValidator->createCaptchaAction()
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(710): yii\captcha\CaptchaValidator->clientValidateAttribute(Object(app\models\Pastes), 'captcha', Object(yii\web\View))
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(202): yii\widgets\ActiveField->getClientOptions()
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(193): yii\widgets\ActiveField->begin()
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(149): yii\widgets\ActiveField->render()
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php(21): yii\widgets\ActiveField->__toString()
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(18): yii\base\View->render('_form', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#13 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(62): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\PastesController->actionCreate()
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#19 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#20 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#22 {main}' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Inva...', '/home/pcmagas/K...', 233, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/ErrorHandler.php(233): trigger_error('Exception (Inva...', 256)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/widgets/ActiveField.php(151): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidConfigException))
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php(21): yii\widgets\ActiveField->__toString()
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, NULL)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php(18): yii\base\View->render('_form', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(325): require('/home/pcmagas/K...')
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/pcmagas/K...', Array)
+#10 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/pcmagas/K...', Array, Object(app\controllers\PastesController))
+#11 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('create', Array, Object(app\controllers\PastesController))
+#12 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(62): yii\base\Controller->render('create', Array)
+#13 [internal function]: app\controllers\PastesController->actionCreate()
+#14 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#17 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#18 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#20 {main}
+    in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/_form.php:21
+    in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/views/pastes/create.php:18
+    in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:62
+2014-12-02 12:46:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '59530'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417524361.823
+    'REQUEST_TIME' => 1417524361
+]
+2014-12-02 13:15:23 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant date - assumed 'date'' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:78
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(78): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/pcmagas/K...', 78, Array)
+#1 [internal function]: app\controllers\PastesController->actionLatest5()
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2014-12-02 13:15:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'di1RV0lGUEoObzg/BjwjGSAYPjQ7CiAIG1c3PDE/ZjsZcnwOIgQPKw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost/yiiexample/web/'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '59882'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417526123
+    'REQUEST_TIME' => 1417526123
+]
+2014-12-02 13:15:59 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date() expects parameter 2 to be long, string given' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:78
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date() expects ...', '/home/pcmagas/K...', 78, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(78): date('1417003781', 'd/m/Y h:m a')
+#2 [internal function]: app\controllers\PastesController->actionLatest5()
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2014-12-02 13:15:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'NXd2ZFhNZ0pNNR8MFzcUGWNCGQcqARcIWA0QDyA0UTtaKFs9Mw84Kw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost/yiiexample/web/'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '59891'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417526159.367
+    'REQUEST_TIME' => 1417526159
+]
+2014-12-02 13:39:01 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:101
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-02 13:39:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '59952'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417527541.715
+    'REQUEST_TIME' => 1417527541
+]
+2014-12-02 13:39:19 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\BaseUrl' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:112
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-02 13:39:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'WkU2S2ItSmIiB18jLVc5MQxwWSgQYTogNz9QIBpUfBM1GhsSCW8VAw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost/yiiexample/web/'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '59953'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417527559.605
+    'REQUEST_TIME' => 1417527559
+]
+2014-12-02 13:41:08 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM)' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php:66
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-02 13:41:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '59971'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiiexample/web/'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417527668.48
+    'REQUEST_TIME' => 1417527668
+]
+2014-12-02 13:49:41 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\models\now()' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:110
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-02 13:49:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'RHNabzdVNGg8MTMHeC9HOxJGNQxFGUQqKQk8BE8sAhkrLHc2XBdrCQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost/yiiexample/web/'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '60020'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417528181.007
+    'REQUEST_TIME' => 1417528181
+]
+2014-12-02 13:50:19 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date_diff() expects parameter 1 to be DateTimeInterface, integer given' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:110
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date_diff() exp...', '/home/pcmagas/K...', 110, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php(110): date_diff(1417003781, 1417528219)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): app\models\Pastes::top10()
+#3 [internal function]: app\controllers\PastesController->actionLatest5()
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2014-12-02 13:50:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'SUg5WUtDYkExClAxBDkREh99Vjo5DxIDJDJfMjM6VDAmFxQAIAE9IA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost/yiiexample/web/'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '60034'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417528219.701
+    'REQUEST_TIME' => 1417528219
+]
+2014-12-02 13:50:48 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date_diff() expects parameter 1 to be DateTimeInterface, integer given' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:110
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date_diff() exp...', '/home/pcmagas/K...', 110, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php(110): date_diff(1417003781, 1417528248)
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): app\models\Pastes::top10()
+#3 [internal function]: app\controllers\PastesController->actionLatest5()
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2014-12-02 13:50:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '60040'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417528248.812
+    'REQUEST_TIME' => 1417528248
+]
+2014-12-02 13:52:01 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\DateTime' not found' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:110
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-02 13:52:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '60041'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417528320.997
+    'REQUEST_TIME' => 1417528320
+]
+2014-12-02 13:52:45 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date_diff() expects parameter 1 to be DateTimeInterface, boolean given' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:110
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date_diff() exp...', '/home/pcmagas/K...', 110, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php(110): date_diff(false, Object(DateTime))
+#2 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): app\models\Pastes::top10()
+#3 [internal function]: app\controllers\PastesController->actionLatest5()
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2014-12-02 13:52:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '60042'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417528365.32
+    'REQUEST_TIME' => 1417528365
+]
+2014-12-02 13:56:46 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\models\now()' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:110
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-02 13:56:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '60084'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417528606.745
+    'REQUEST_TIME' => 1417528606
+]
+2014-12-02 14:00:03 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php:110
+Stack trace:
+#0 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/models/Pastes.php(110): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/home/pcmagas/K...', 110, Array)
+#1 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/controllers/PastesController.php(66): app\models\Pastes::top10()
+#2 [internal function]: app\controllers\PastesController->actionLatest5()
+#3 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('latest5', Array)
+#6 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('pastes/latest5', Array)
+#7 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2014-12-02 14:00:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pastes/latest5'
+]
+
+$_COOKIE = [
+    '_csrf' => '1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s:32:\"xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a\";'
+    'PHPSESSID' => 'su9qn49hurkdmo2jj9gk43enf0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'el-gr,el;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'ZjIyN092dWQecFtfAAwGNzAHXVQ9OgUmC0hUXDcPQxUJbR9uJDQqBQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost/yiiexample/web/'
+    'HTTP_COOKIE' => '_csrf=1471ab60dff2d37b83e0f996b3c45a8f91bf6242e437849bb9ca044061c1d712s%3A32%3A%22xBihOzsSV5ocrLpBmzfkxy6qo_-YkB_a%22%3B; PHPSESSID=su9qn49hurkdmo2jj9gk43enf0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/pcmagas/Kwdikas/php/htdocs'
+    'SERVER_ADMIN' => 'pc_magas@yahoo.gr'
+    'SCRIPT_FILENAME' => '/home/pcmagas/Kwdikas/php/htdocs/yiiexample/web/index.php'
+    'REMOTE_PORT' => '60090'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pastes/latest5'
+    'REQUEST_URI' => '/yiiexample/web/?r=pastes/latest5'
+    'SCRIPT_NAME' => '/yiiexample/web/index.php'
+    'PHP_SELF' => '/yiiexample/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417528803.112
+    'REQUEST_TIME' => 1417528803
+]
